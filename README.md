@@ -24,3 +24,164 @@ Muhammad Fadhlan Asila Harashta-5025211068<br>
 | 8 | A8     | 66   | /25     | 128     | 10.79.14.0        |
 | 9 | A9     | 2    | /30     | 4       | 10.79.14.144      |
 |10 | A10    | 2    | /30     | 4       | 10.79.14.148      |
+
+## Subneting
+
+### Aura Configuration
+```
+auto eth0
+iface eth0 inet dhcp
+
+auto eth1
+iface eth1 inet static
+	address 10.79.14.129
+	netmask 255.255.255.252
+
+auto eth2
+iface eth2 inet static
+	address 10.79.14.133
+	netmask 255.255.255.252
+```
+
+### Heiter Configuration
+```
+auto eth0
+iface eth0 inet static
+	address 10.79.14.130
+	netmask 255.255.255.252
+        gateway 10.79.14.129
+
+auto eth1
+iface eth1 inet static
+	address 10.79.1.1
+	netmask 255.255.248.0
+
+auto eth2
+iface eth2 inet static
+	address 10.79.8.1
+	netmask 255.255.252.0
+```
+
+### Turk Region Configuration
+```
+auto eth0
+iface eth0 inet static
+	address 10.79.1.2
+	netmask 255.255.248.0
+        gateway 10.79.1.1
+```
+
+### Frieren Configuration
+```
+auto eth0
+iface eth0 inet static
+	address 10.79.14.134
+	netmask 255.255.255.252
+
+auto eth1
+iface eth1 inet static
+	address 10.79.14.137
+	netmask 255.255.255.252
+
+auto eth2
+iface eth2 inet static
+	address 10.79.14.141
+	netmask 255.255.255.252
+```
+
+### Sein Configuration
+```
+auto eth0
+iface eth0 inet static
+	address 10.79.8.2
+	netmask 255.255.252.0
+        gateway 10.79.8.1
+```
+
+### Grobe Forest Configuration
+```
+auto eth0
+iface eth0 inet static
+	address 10.79.8.3
+	netmask 255.255.252.0
+        gateway 10.79.8.1
+```
+
+### Stark Configuration
+```
+auto eth0
+iface eth0 inet static
+	address 10.79.14.138
+	netmask 255.255.255.252
+        gateway 10.79.14.137
+```
+
+### Himmel Configuration
+```
+auto eth0
+iface eth0 inet static
+	address 10.79.14.142
+	netmask 255.255.255.252
+
+auto eth1
+iface eth1 inet static
+	address 10.79.12.1
+	netmask 255.255.255.252
+
+auto eth2
+```
+
+### Laub Hills Configuration
+```
+auto eth0
+iface eth0 inet static
+	address 10.79.12.2
+	netmask 255.255.255.252
+        gateway 10.79.12.1
+```
+
+### Fern Configuration
+```
+auto eth0
+iface eth0 inet static
+	address 10.79.14.3
+	netmask 255.255.255.128
+
+auto eth1
+iface eth1 inet static
+	address 10.79.14.145
+	netmask 255.255.255.252
+
+auto eth2
+iface eth2 inet static
+	address 10.79.14.149
+	netmask 255.255.255.252
+
+```
+
+### Richter Configuration
+```
+auto eth0
+iface eth0 inet static
+	address 10.79.14.146
+	netmask 255.255.255.252
+        gateway 10.79.14.145
+```
+
+### Revolte Configuration
+```
+auto eth0
+iface eth0 inet static
+	address 10.79.14.150
+	netmask 255.255.255.252
+        gateway 10.79.14.149
+```
+
+### Schewer Mountain Configuration
+```
+auto eth0
+iface eth0 inet static
+	address 10.79.14.2
+	netmask 255.255.255.128
+        gateway 10.79.14.1
+```
