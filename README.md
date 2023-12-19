@@ -188,3 +188,5 @@ iface eth0 inet static
 	netmask 255.255.255.128
         gateway 10.79.14.1
 ```
+### Ping node lain
+![ping](https://cdn.discordapp.com/attachments/1173915504872796160/1186661992036053112/image.png?ex=6594101a&is=65819b1a&hm=f863c331a8ec251a68f7e246318e2fc1f7306587f9d41e2b9529af7a887db86d&)
