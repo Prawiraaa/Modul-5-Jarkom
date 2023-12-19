@@ -10,7 +10,7 @@ Muhammad Fadhlan Asila Harashta-5025211068<br>
 ## Tree VLSM
 ![Tree](https://cdn.discordapp.com/attachments/1173915504872796160/1185213790120329216/image.png?ex=658ecb5b&is=657c565b&hm=7315d2905115e3e056262ffe3c42644d6ed95aa6512827aa9d553bddfde75de4&)
 
-## SpreadSheet
+## Prefix IP Route
 
 | No | Subnet | Host | Netmask | Address | Network ID (NID) |
 |---|--------|------|---------|---------|------------------ |
