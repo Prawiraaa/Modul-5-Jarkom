@@ -8,7 +8,7 @@ Muhammad Fadhlan Asila Harashta-5025211068<br>
 ![Topologi](https://cdn.discordapp.com/attachments/903112010504482836/1185193704810623076/image.png?ex=658eb8a7&is=657c43a7&hm=0c436d98a611d38e011d1eaf582788c69a36b8d54e3abcbec92c7c5517772d97&)
 
 ## Tree VLSM
-![Tree](https://cdn.discordapp.com/attachments/1173915504872796160/1185213790120329216/image.png?ex=658ecb5b&is=657c565b&hm=7315d2905115e3e056262ffe3c42644d6ed95aa6512827aa9d553bddfde75de4&)
+![Tree](https://cdn.discordapp.com/attachments/903112010504482836/1186673828718452807/image.png?ex=65941b20&is=6581a620&hm=0d285d942c3de4b7d159c07c53a0c0991f1256ad03730a9321174839f5f5e5ba&)
 Pertama tentukan jumlah dari masing masing CIDR. Dalam kasus ini ada 6 node dengan CIDR /30. Untuk mempermudah buat 6 node /30. Untuk kemudian naik terus sampai kita menemukan CIDR kedua tertinggi dalam topologi, dalam kasus ini adalah /25. Pastikan ada node kosong untuk /25 kemudian lakukan step tadi hingga node terendah dicapai. <br>
 Menentukan IP
 Kemudian untuk menentukan IP pada node CIDR /20 memiliki 4096 total address. Dikarenakan akan dibagi menjadi 2, masing masing CIDR /21 akan memiliki 2048 address. Dan seterus nya akan dibagi 2. Untuk mempermudah 2048 akan dibagi dengan 256 dan hasilnya ditambahkan pada ip atasnya. Misal 10.79.1.0 /20, dikarenakan CIDR /20 memiliki 4096 total address. Karena itu maka node dibawahnya masing masing memiliki 2048 total address. Kemudian 2048 akan dibagi 256 yang hasilnya 8. Dari sana maka salah satu node akan memiliki ip 10.79.1.0 - 10.79.7.255 dan node satu lagi 10.79.8.0 sampai 10.79.14.255 <br>
