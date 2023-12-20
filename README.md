@@ -193,3 +193,23 @@ iface eth0 inet static
 
 ## Topologi CPT
 ![TopologiCPT](https://cdn.discordapp.com/attachments/945123026410831952/1186869034747179038/image.png?ex=6594d0ec&is=65825bec&hm=cf9ff27b5220854344af59b1c018bb504a04c3913d752fcc452e84a267730585&)
+
+### Subnetting
+Menggunakan metode yang sama dengan GNS
+
+### Routing
+
+#### Aura
+![AuraCPT](https://cdn.discordapp.com/attachments/945123026410831952/1186869900388597860/image.png?ex=6594d1bb&is=65825cbb&hm=288dcca714d2a17a23bb5045c7f86f92d2261e23f52105ea1456f3fcfec01c93&)
+
+#### Heiter
+![HeiterCPT](https://cdn.discordapp.com/attachments/945123026410831952/1186870778118013019/image.png?ex=6594d28c&is=65825d8c&hm=87d64ff3d4a96111682a09ced8706c5bb3698dd2021df5c976a756f857c446e0&)
+
+#### Frieren
+![FrierenCPT](https://cdn.discordapp.com/attachments/945123026410831952/1186870914860728340/image.png?ex=6594d2ad&is=65825dad&hm=44d65e060133c82f63c3310e224f616d68273097ac079c7247cf03d9eb7c254b&)
+
+#### Himmel
+![HimmelCPT](https://cdn.discordapp.com/attachments/945123026410831952/1186871024822784032/image.png?ex=6594d2c7&is=65825dc7&hm=a86399bc02e1a587ff4dac8ff95ea0c5597dc5b214c5c3a9feb5d6cfcca36626&)
+
+#### Fern
+![FernCPT](https://cdn.discordapp.com/attachments/945123026410831952/1186871143731314688/image.png?ex=6594d2e3&is=65825de3&hm=158d4b86bcf038ad529c7ae8c8d1b49473774dda19176cdfbd62c2e0eeef1687&)
