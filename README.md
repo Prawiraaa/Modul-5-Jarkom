@@ -4,7 +4,7 @@ I Putu Arya Prawira Wiwekananda-5025211065<br>
 Hanifi Abrar Setiawan-5025211066<br>
 Muhammad Fadhlan Asila Harashta-5025211068<br>
 
-## Topologi
+## Topologi GNS
 ![Topologi](https://cdn.discordapp.com/attachments/903112010504482836/1185193704810623076/image.png?ex=658eb8a7&is=657c43a7&hm=0c436d98a611d38e011d1eaf582788c69a36b8d54e3abcbec92c7c5517772d97&)
 
 ## Tree VLSM
@@ -190,3 +190,6 @@ iface eth0 inet static
 ```
 ### Ping node lain
 ![ping](https://cdn.discordapp.com/attachments/1173915504872796160/1186661992036053112/image.png?ex=6594101a&is=65819b1a&hm=f863c331a8ec251a68f7e246318e2fc1f7306587f9d41e2b9529af7a887db86d&)
+
+## Topologi CPT
+![TopologiCPT](https://cdn.discordapp.com/attachments/945123026410831952/1186869034747179038/image.png?ex=6594d0ec&is=65825bec&hm=cf9ff27b5220854344af59b1c018bb504a04c3913d752fcc452e84a267730585&)
